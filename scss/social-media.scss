@@ -1,0 +1,49 @@
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #FFFFFF;
+    
+    
+
+    .social-media-text {
+        max-width: 350px;
+        
+        h3 {
+            padding-bottom: 10px ;
+        }
+
+        p {
+            font-size: 0.8em;
+            color: #86878B;
+            line-height: 25px;
+        }
+       
+       
+    }
+
+    .social-media-icons{
+
+        display: flex;
+        align-items: center;
+        
+
+        
+
+        .icons {
+            display: flex;
+            font-size: 2.5em;
+            color: $orange;
+            justify-content: space-around;
+            align-items: center;
+            min-width: 350px;
+            gap: 60px;
+            
+
+            #wifi {
+                transform: rotate(50deg);
+            }
+        }
+
+    }
+}

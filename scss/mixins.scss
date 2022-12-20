@@ -1,0 +1,11 @@
+@mixin mainstyle {
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    // z-index: -1;
+}
