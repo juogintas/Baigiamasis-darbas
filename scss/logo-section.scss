@@ -1,0 +1,76 @@
+.logo-section {
+    @include mainstyle;
+    background:#1C1C1C ;
+    gap: 20px;
+
+
+    .big-logo {
+        background: $logo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: 25em;
+        min-width: 520px;
+        min-height: 200px;
+    }
+
+
+    .logo-text {
+        max-width: 550px;
+
+        h1 {
+            font-size: 2em;
+
+            padding-bottom:30px ;
+            line-height: 45px;
+        
+        }
+
+
+        .border 
+        {
+            width: 250px;
+            border-bottom: 3px solid $orange;
+        }
+
+
+        p {
+            padding-top: 30px;
+            opacity: 0.8;
+            font-size: 15px;
+        }
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            padding-top: 30px;
+        }
+
+        .logos {
+            display: flex;
+            flex-direction: column;
+            font-size: 2em;
+            gap: 30px;
+            
+
+            i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: auto;
+                background: $orange;
+                height: 50px;
+                width: 50px;
+                border-radius: 100px;
+            }
+        }
+
+        .text {
+            max-width: 350px;
+        }
+    }
+}

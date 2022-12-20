@@ -1,0 +1,55 @@
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+
+    .border {
+        width: 70px;
+        border-bottom: 2px solid $orange ;
+       ;
+    }
+
+    h1 {
+        padding-bottom:15px ;
+    }
+
+    p {
+        padding: 15px;
+        opacity: 0.6;
+        font-size: 13px;
+    }
+
+
+    .container {
+
+        display: flex;
+
+
+        .containers {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 350px ;
+
+            i {
+                color: $orange;
+                border: 2px solid $orange;
+                border-radius: 100px;
+                padding: 20px;
+                font-size: 1.5em;
+
+                margin: 30px;
+            }
+
+            p {
+                line-height: 25px;
+                flex: 1;
+            }
+        }
+    
+    }
+
+}
