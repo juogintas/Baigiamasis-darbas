@@ -51,3 +51,43 @@ header {
     }
 
   }
+
+  #burger {
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+ 
+}
+
+#burger.rotate {
+    transform: rotate(-90deg);
+}
+
+.link.block {
+   display: block;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    nav {
+        min-height: 50px;
+        height: auto;
+        // flex-direction: column;
+        
+    }
+
+    #burger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 1.2em;
+    }
+
+    .link {
+        display: none;
+    }
+}

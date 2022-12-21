@@ -2,16 +2,20 @@
     background: url(../images/desert.png);
     @include mainstyle;
     gap: 5%;
+    
 
     
 
     .tabs {
+
+        
         button {
             transform: rotate(315deg);
             border: none;
             background: #A37169;
             height: 70px;
             width: 70px;
+            
         }
         div {
             height: 100px;
@@ -22,6 +26,7 @@
             justify-content: center;
             background: #A37169;
             margin: 15px;
+        
             
         }
 
@@ -29,6 +34,7 @@
             background:#E27866 ;
             button {
                 background:#E27866 ;
+                
             }
         }
 
@@ -99,6 +105,10 @@
 
 
     }}
+
+
+
+
 
     @media (max-width:768px) {
         .tab-pictures {
