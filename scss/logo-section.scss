@@ -74,3 +74,13 @@
         }
     }
 }
+
+@media (max-width:768px) {
+    .big-logo {
+        display: none !important;
+        
+    }
+    .logo-section {
+        padding: 30px;
+    }
+}

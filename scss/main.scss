@@ -31,7 +31,6 @@ main {
             background-size: 15em;
             width: 247px;
             height: 108px;
-            
         }
 
         p {
@@ -104,3 +103,21 @@ main::before {
     opacity: 0.7;
     z-index: -1;
 }   
+
+
+@media (max-width:768px) {
+
+
+    main {
+        flex-direction: column !important;
+        gap: 40px;
+        padding-top: 90px;
+
+        .intro {
+            max-width: 350px;
+            max-height: 400px;
+        }
+        
+
+    }
+}

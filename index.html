@@ -17,15 +17,16 @@
       <div class="img-logo">
       </div>
       <nav>
-        <h4>Features</h4>
-        <h4>About</h4>
-        <h4>Pricing</h4>
-        <h4>Reviews</h4>
-        <h4>Contact</h4>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    
       </nav>
     </header>
 
-    <main>
+    <main id="features">
       <div class="intro">
         <div class="img-big"></div>
         <h2>Explained propriety of out perpetual to you</h2>
@@ -55,7 +56,7 @@
     </main>
 
 
-    <article class="social-media">
+    <article class="social-media" id="about">
       <div class="social-media-text">
         <h3> Social Media</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
@@ -75,16 +76,33 @@
 
     <div class="tab-main">
       <div class="tabs">
-        <div><p>REGISTER</p></div>
-        <div><p>APPLY</p></div>
-        <div><p>RECEIVE</p></div>
+        <div><button id="button" index="0" onclick="displayTab('first')">REGISTER</div>
+        <div><button id="button" index="1" onclick="displayTab('second')">APPLY</div>
+        <div><button id="button" index="2" onclick="displayTab('third')">RECEIVE</div>
       </div>
 
-      <article class="tab-info">
-        <h1>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h1>
+      <article class="tab-info" id="first">
+        <h1>ARTICLE 1</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit ratione expedita animi provident fuga iste molestiae distinctio rerum molestias neque, accusamus consequatur libero vel fugiat ipsa, deleniti adipisci explicabo.</p>
       </article>
+
+      <article class="tab-info" id="second">
+        <h1>ARTICLE 2 </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit ratione expedita animi provident fuga iste molestiae distinctio rerum molestias neque, accusamus consequatur libero vel fugiat ipsa, deleniti adipisci explicabo.</p>
+      </article>
+
+      <article class="tab-info" id="third">
+        <h1>ARTICLE 3 </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi suscipit ratione expedita animi provident fuga iste molestiae distinctio rerum molestias neque, accusamus consequatur libero vel fugiat ipsa, deleniti adipisci explicabo.</p>
+      </article>
+
+
+
+
+
 
 
       <div class="tab-pictures">
@@ -152,7 +170,7 @@
     </div>
 
 
-    <div class="pricing-options">
+    <div class="pricing-options" id="pricing">
       <h1>PRICING OPTIONS</h1>
       <div class="border"></div>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -217,7 +235,7 @@
 
 
 <!-- Slider main container -->
-<div class="swiper">
+<div class="swiper" id="reviews">
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
@@ -376,11 +394,11 @@
     ...
   </div>
   <!-- If we need pagination -->
-  <div class="swiper-pagination"></div>
+  <!-- <div class="swiper-pagination"></div> -->
 
 
 
-  <div class="contact-us">
+  <div class="contact-us" id="contact">
     <h1>CONTACT US</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     <div class="table">
@@ -396,9 +414,23 @@
 
   </div>
 
+  <footer>
+    <div class="footer-icons">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+        <i id="wifi" class="fa-solid fa-wifi"></i>
+      </div>
 
 
-      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <div><p>© 2019 Cheshire County</p></div>
+  </footer>
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="swiper.js"></script>
 </body>
 </html>

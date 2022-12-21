@@ -56,3 +56,15 @@
       
   } 
 
+
+
+  @media (max-width:768px) {
+
+    .swiper-info {
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 35px;
+   
+}
+  }
